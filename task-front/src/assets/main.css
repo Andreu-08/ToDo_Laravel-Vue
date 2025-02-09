@@ -33,3 +33,63 @@ a,
     padding: 0 2rem;
   }
 }
+
+/* Estilos para la aplicación de tareas */
+.todo-container {
+  background: #41B883;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.title {
+  font-size: 1.8rem;
+  color: #34495E;
+  margin-bottom: 10px;
+}
+
+.task-input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #34495E;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-bottom: 15px;
+  text-transform: uppercase;  
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+  color: black;
+  text-transform: uppercase;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.delete-btn {
+  background-image: linear-gradient(to right, #f857a6 0%, #ff5858  51%, #f857a6  100%);
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background: #ff5858;
+}
